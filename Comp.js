@@ -8,3 +8,5 @@ var Component=function(name,type,voltage,current,resistence){
 var Loop=function(components){
   this.components=components;
 };
+Loop.prototype.type="Linear";
+
